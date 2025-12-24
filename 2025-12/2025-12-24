@@ -1,0 +1,52 @@
+# 📝 배운 내용 (Today I Learned)
+
+## Git
+- 분산 저장 관리 시스템
+- 3개의 구조로 나눌 수 있다. (Working Directory / Staging Area / Repository)
+## GitHub
+- 깃 원격 저장소 서비스
+
+## Git 주요 명령어
+- git init
+- git add
+  - 파일을 Staging Area에 기록해둠
+- git commit
+  - git commit -m ''
+- git log
+- git status
+- git branch
+  - 평행 우주
+  - git switch / checkout
+- git merge
+  - Merge made by 라는 메세지가 보여야함
+  - git merge --abort (병합 도중에 취소하고 싶은 경우)
+  - Conflict : 두 브랜치가 같은 파일의 줄을 수정하는 경우 발생
+  - git rebase
+
+<img width="815" height="201" alt="image" src="https://github.com/user-attachments/assets/ddcca521-fdea-4c69-8237-b783a87e4f43" />
+
+- git push
+  - 로컬 저장소의 커밋을 원격 저장소에 업로드
+- git pull
+  - 원격 저장소를 로컬 저장소에 다운로드
+  - 사실상 fetch와 merge가 합쳐진 것
+- git clone
+- git remote add origin https://github.com/username/my-project.git
+- git origin
+  - 관례적으로 사용하는 원격 저장소 이름 
+- HEAD
+  - 현재 작업중인 위치를 가리키는 포인
+
+## Git Flow 전략
+- FastFoward 방식
+  - main에서 변화가 없는 경우
+- 3-Way Merge 방식
+  - main에서 변화가 있는 경우
+  
+## gh 명령어
+- gh repo
+- gh repo create
+- gh repo view
+
+## 🔗 참고 자료 (References)
+- https://github.com/ej31
